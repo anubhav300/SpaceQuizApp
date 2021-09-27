@@ -1,1 +1,1 @@
-# SpaceQuizApp
+I have made a simple Space Quiz app using Kotlin and XML. I learned how to make multi-screen apps, learned to use buttons and different types of views. There are currently some bugs in the app which I would be rectifying gradually. Thanks:)
