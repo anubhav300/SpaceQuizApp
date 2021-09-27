@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:orientation="vertical"
+    android:background="@drawable/nasa">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/black"
+    android:text="TOPICS"
+    android:textColor="@color/white"
+    android:textAlignment="center"
+    android:textSize="50sp"
+
+    />
+    <Button
+        android:id="@+id/gen"
+        android:layout_gravity="center"
+
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/design_default_color_primary"
+        android:text="General Space"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/holes"
+        android:layout_gravity="center"
+
+        android:layout_width="338dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Black Holes"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+    <Button
+
+        android:id="@+id/earth"
+        android:layout_gravity="center"
+
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Earth Quiz"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+    <Button
+        android:id="@+id/Constellation"
+        android:layout_gravity="center"
+
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Constellations"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/apollo"
+        android:layout_gravity="center"
+
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Apollo Mission"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+
+</LinearLayout>

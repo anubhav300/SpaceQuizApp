@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anubhavgupta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/earth"
+        android:label="Space Quiz"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnubhavGupta">
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".AM"
+            android:exported="true" />
+        <activity
+            android:name=".C"
+            android:exported="true" />
+        <activity
+            android:name=".EQ"
+            android:exported="true" />
+        <activity
+            android:name=".BH"
+            android:exported="true" />
+        <activity
+            android:name=".GS"
+            android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
